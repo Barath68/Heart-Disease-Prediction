@@ -1,0 +1,28 @@
+<html>
+    <title>Cardio-Guard</title>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+        <h1> HEART DISEASE PREDICTOR </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+
+            <b> Enter Your Age Value : <input type="text", name='a', placeholder="enter age"> <br><br>
+                Enter Gender(1-M/0-F):  <input type="text", name='b', placeholder="enter Gender"> <br><br>
+                Enter Chest Pain level:  <input type="text", name='c', placeholder="enter cp"> <br><br>
+                Enter Trestbps level : <input type="text", name='d', placeholder="enter trestbps"> <br><br><br>
+                Enter Cholestrol level:  <input type="text", name='e', placeholder="enter chol"> <br><br>
+                Enter blood sugar level:  <input type="text", name='f', placeholder="enter fbs"> <br><br>
+                Enter restecg level:  <input type="text", name='g', placeholder="enter restecg"> <br><br>
+                Enter thalach level: <input type="text", name='h', placeholder="enter thalch"> <br><br><br>
+                Enter exang level:  <input type="text", name='i', placeholder="enter exang"> <br><br>
+                Enter oldpeak level:  <input type="text", name='j', placeholder="enter oldpeak"> <br><br>
+                Enter slope value:  <input type="text", name='k', placeholder="enter slope"> <br><br>
+                Enter ca level:  <input type="text", name='l', placeholder="enter ca"> <br><br>
+                Enter thal level: <input type="text", name='m', placeholder="enter thal"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+        
+    </center>
+    </body>
+</html>

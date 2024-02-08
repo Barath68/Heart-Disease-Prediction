@@ -1,0 +1,38 @@
+<html>
+
+<body bgcolor=#a3cfb4>
+
+    <center>
+
+        <h1>  PREDICTION :  </h1>
+    
+    {%if data <= 0.5%}
+    <h1>SORRY!YOU'RE HEART IS UNHEALTHY!</h1>  
+    <img src='static/unhealthyimg.jpeg'>  
+
+    {%else%}
+    <h1>YOU"RE HEART IS HEALTHY</h1>
+    <img src='static/healthyimg.jpeg'>
+    <style>
+        .img{
+            image-resolution: from-image;
+            image-resolution: 300dpi;
+        }
+    </style>
+    
+    {%endif%}
+
+        <br><br>
+    <a href='/'>go back to home page</a>
+
+    </center>
+
+</body>
+
+</html>
+
+
+
+
+
+
